@@ -1,0 +1,127 @@
+@charset "UTF8";
+@font-face{
+    font-family: 'Idroid';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+a {
+    text-decoration: none;
+}
+nav > a{
+    color: white;
+}
+aside > pre > a {
+    color: rgb(0, 0, 0);
+    
+}
+aside > pre > a:hover{
+    text-decoration: underline;
+}
+li{
+    color: black;
+}
+
+nav{
+    text-align: left;
+    
+    
+    color: white;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+nav :hover {
+    border: 10px 10px 10px;
+    border-radius: 4px;
+background-color: #00ff0054;
+}
+header{
+    color: white;
+    margin: top 0px;
+    background: linear-gradient(to bottom, rgb(7, 212, 7) 30%, #003300 70%);
+    padding: 20px;
+}
+ h2 {
+    font-family: 'idroid';
+    border: 1px;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: left;
+    background-image: linear-gradient(to right, rgb(163, 241, 193), white);
+ }
+
+body{
+    background-color: rgb(163, 241, 193);
+   
+}
+main{
+    background-attachment: fixed;
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
+    text-align: center;
+}
+aside > h3 {
+    text-align: center;
+    font-family: 'idroid';
+    background-color:rgb(7, 179, 7);
+    border: 1px;
+    
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+aside { 
+    
+    text-align: center;
+    background-color: rgb(163, 241, 193);
+    border: 1px;
+    border-radius: 15px;
+    padding-bottom: 5px;
+}
+footer{
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder;
+}
+.divirina{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    padding: 10px;
+
+}
+#irina{
+    height: auto;
+    width: 80%;
+}
+.video-container {
+    padding: 10px;
+    display: flex;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+iframe {
+    width: 80%;
+    height: 960px;
+
+}
+aside > div {
+    text-align: left;
+}
+div{
+    padding: 5px;
+}
+
+@media screen and (max-width: 1200px) {
+    iframe {
+        height: 560px;
+
+    }
+  }
